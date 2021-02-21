@@ -1,0 +1,127 @@
+/******************
+Resource notes - 
+
+Color Palette
+White - #f6f5f5
+Dusty Blue - #D3E0EA
+Bright Teal - #1687A7
+Deep Teal - #276678
+
+*******************/
+
+*{
+
+}
+
+/****
+Base Attributes
+****/
+
+body{
+    background: #f6f5f5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6f5f5 0%, #276678 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6f5f5 0%,#276678 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6f5f5 0%,#276678  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f5f5', endColorstr='#276678',GradientType=0 ); /* IE6-9 */
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #d3d3d3
+}
+.container{
+    position: relative;
+}
+
+/****
+Link Behavior
+****/
+
+a:link, a:visited, a:active{
+    color: #276678;
+}
+
+a:hover { 
+	color: #D3E0EA; 
+	text-decoration: none; 
+    cursor: pointer;
+}
+/****
+Header
+****/
+
+header{
+    height: 75px;
+    width: 98%;
+    border: 2px solid #D3E0EA ;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    display: inline;
+    background-color: #1687A7;
+    z-index: 3;
+}
+
+header h1{
+    font-size: 50px;
+    color: #f6f5f5;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+/****
+Image Break
+****/
+
+.break img{
+    margin-top: 90px;
+    position: relative;
+    height: 250px;
+    width: 98%;
+    padding: 5px;
+}
+
+/****
+About Me
+****/
+.about{
+    width: 50%;
+    border:2px solid #D3E0EA;
+    margin: 2px; 
+    background-color: #D3E0EA;
+    color: #000;
+}
+
+.about h2{
+
+}
+
+/****
+Work Examples
+****/
+
+.feature{
+    padding: 5px;
+    background-color: #D3E0EA;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #1687A7;
+    margin: 3px; 
+}
+
+.feature img{
+    height:250px;
+    width: 500px;
+}
+
+.work{
+    padding: 5px;
+    background-color: #D3E0EA;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #f6f5f5;
+    margin: 2px;
+}
+
+.work img{
+    height: 150px;
+    width: 150px;
+}
