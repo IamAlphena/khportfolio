@@ -54,6 +54,7 @@ header{
     left: 5px;
     display: inline;
     background-color: #1687A7;
+    border-radius: 20px;
     z-index: 3;
 }
 
@@ -85,6 +86,7 @@ Content
     position: relative;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 /* @media (max-width: 800px) {
@@ -93,11 +95,13 @@ Content
     } */
 
 .about{
-    /* width: 50%; */
+    width: 50%;
     border:2px solid #D3E0EA;
+    border-radius: 20px;
     margin: 2px; 
     background-color: #D3E0EA;
     color: #000;
+
 }
 
 .about h2{
@@ -114,12 +118,13 @@ Work Examples
     position: relative;
     display: inline-block;
     border: 2px solid #1687A7;
+    border-radius: 20px;
     margin: 3px; 
 }
 
 .feature img{
-    height:250px;
-    width: 500px;
+    height:300px;
+    width: 80%;
 }
 
 .work{
@@ -128,10 +133,11 @@ Work Examples
     position: relative;
     display: inline-block;
     border: 2px solid #f6f5f5;
+    border-radius: 20px;
     margin: 2px;
 }
 
 .work img{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
