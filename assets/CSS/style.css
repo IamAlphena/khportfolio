@@ -27,9 +27,6 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #d3d3d3
 }
-.container{
-    position: relative;
-}
 
 /****
 Link Behavior
@@ -80,10 +77,23 @@ Image Break
 }
 
 /****
-About Me
+Content
 ****/
+
+.container{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    } */
+
 .about{
-    width: 50%;
+    /* width: 50%; */
     border:2px solid #D3E0EA;
     margin: 2px; 
     background-color: #D3E0EA;
