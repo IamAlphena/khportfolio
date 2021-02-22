@@ -89,10 +89,18 @@ Content
     /* flex-wrap: wrap; */
 }
 
-/* @media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .container {
       flex-direction: column;
-    } */
+    } 
+}
+
+@media only screen and (min-width: 801px){
+    .container{
+        flex-direction: row;
+    }
+}
+
 
 .about{
     width: 50%;
