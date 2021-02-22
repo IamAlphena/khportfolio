@@ -47,6 +47,7 @@ a:hover {
 	text-decoration: none; 
     cursor: pointer;
 }
+
 /****
 Header
 ****/
@@ -72,7 +73,7 @@ header nav{
 }
 
 header nav a{
-    padding:  
+    padding: 5px;
 }
 
 /****
