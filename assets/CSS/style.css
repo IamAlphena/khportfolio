@@ -87,6 +87,16 @@ Image Break
   height: 400px;
 }
 
+.photo img{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    border: 1px solid #363062;
+}
+
 /****
 Content
 ****/
@@ -103,6 +113,10 @@ Content
     .container {
       flex-direction: column;
     } 
+
+    /* .about{
+        width: 75%;
+    } */
 }
 
 @media only screen and (min-width: 801px){
@@ -113,16 +127,15 @@ Content
 
 .title{
     font-size: 45px;
-    
 }
-
 
 .about{
     width: 50%;
-    border:2px solid #363062;
+    padding: 20px;
+    /* border:2px solid #363062; */
     border-radius: 20px;
     margin: 2px; 
-    background-color: #4d4c7d;
+    background-color: #827397;
     color: #000;
 
 }
