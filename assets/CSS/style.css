@@ -80,12 +80,11 @@ header nav a{
 Image Break
 ****/
 
-.break img{
-    margin-top: 90px;
-    position: relative;
-    height: 450px;
-    width: 98%;
-    padding: 5px;
+.break{
+  background-image: url("../images/cropped\ pencils.png");
+  display: block;
+  width: 100%;
+  height: 400px;
 }
 
 /****
@@ -112,19 +111,24 @@ Content
     }
 }
 
+.title{
+    font-size: 45px;
+    
+}
+
 
 .about{
     width: 50%;
-    border:2px solid #D3E0EA;
+    border:2px solid #363062;
     border-radius: 20px;
     margin: 2px; 
-    background-color: #D3E0EA;
+    background-color: #4d4c7d;
     color: #000;
 
 }
 
 .about h2{
-
+    font-size: 45px;
 }
 
 /****
@@ -133,10 +137,10 @@ Work Examples
 
 .feature{
     padding: 5px;
-    background-color: #D3E0EA;
+    background-color: #4d4c7d;
     position: relative;
     display: inline-block;
-    border: 2px solid #1687A7;
+    border: 2px solid #D8B9C3;
     border-radius: 20px;
     margin: 3px; 
 }
@@ -148,10 +152,10 @@ Work Examples
 
 .work{
     padding: 5px;
-    background-color: #D3E0EA;
+    background-color: #4d4c7d;
     position: relative;
     display: inline-block;
-    border: 2px solid #f6f5f5;
+    border: 2px solid #4d4c7d;
     border-radius: 20px;
     margin: 2px;
 }
