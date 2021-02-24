@@ -107,6 +107,17 @@ Content
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+#examples{
+    
+}
+
+.alignment{
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 800px) {
@@ -127,10 +138,11 @@ Content
 
 .title{
     font-size: 45px;
+    margin-left: 10px;
 }
 
 .about{
-    width: 50%;
+    width: 75%;
     padding: 20px;
     /* border:2px solid #363062; */
     border-radius: 20px;
@@ -138,6 +150,10 @@ Content
     background-color: #827397;
     color: #000;
 
+}
+
+.about p{
+    padding: 3px;
 }
 
 .about h2{
@@ -177,3 +193,4 @@ Work Examples
     height: 200px;
     width: 200px;
 }
+
