@@ -7,6 +7,20 @@ purpled pink- #827397
 dusty pink - #d8b9c3
 
 *******************/
+/****
+Font information
+****/
+
+@font-face {
+    font-family: 'LemonTuesday';
+    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot');
+    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff2') format('woff2'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff') format('woff'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.ttf') format('truetype'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal; }
 
 /****
 Base Attributes
@@ -35,14 +49,16 @@ a:hover {
 	color: #D3E0EA; 
 	text-decoration: none; 
     cursor: pointer;
+    opacity: 0.5;
 }
+
 
 /****
 Header
 ****/
 
 header{
-    height: 30px;
+    height: 33px;
     width: 98%;
     border: 2px solid #D3E0EA ;
     position: fixed;
@@ -59,6 +75,7 @@ header nav{
     color: #f6f5f5;
     margin-right: 10px;
     float: right;
+    margin-top: 3px;
 }
 
 header nav a{
@@ -84,6 +101,15 @@ Image Break
     height:200px;
     width: 200px;
     border: 1px solid #363062;
+}
+
+.name{
+    position: absolute;
+    top: 55px;
+    right: 75px;
+    font-family: 'Lemon Tuesday';
+    color:#363062;
+    font-size: 55px;
 }
 
 .spacer{
@@ -186,7 +212,7 @@ Work Examples
     height:500px;
     width: 90%;
     border-radius: 20px;
-    background-size: cover;
+    /* background-size: cover; */
     z-index: 1;
 }
 
@@ -200,6 +226,7 @@ Work Examples
     display: absolute;
     margin-top: -60px;
     z-index: 999;
+    border-radius: 5px;
 }
 
 .work{
@@ -216,6 +243,6 @@ Work Examples
     height: 200px;
     width: 90%;
     border-radius: 20px;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
