@@ -6,11 +6,6 @@ dusty deep purple - #4d4c7d
 purpled pink- #827397
 dusty pink - #d8b9c3
 
-
-TO DO: 
--fix images to be links
--write read me
-
 *******************/
 
 /****
@@ -42,6 +37,8 @@ body{
     font-family: 'RocknRoll One', sans-serif;
     color: #D8B9C3
 }
+
+
 
 /****
 Link Behavior
@@ -252,3 +249,18 @@ Work Examples
     /* background-size: cover; */
 }
 
+/****
+Footer
+****/
+
+footer{
+    height: 33px;
+    text-align: center;
+    background-color: #363062;
+    opacity: 0.5;
+}
+
+footer p{
+    font-size: 10px;
+    padding: 3px;
+}
