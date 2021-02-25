@@ -8,7 +8,7 @@ Professional Portfolio to showcase work and areas of expertise for potential emp
 ![Preview Image](assets/images/part1.png)
 
 ## Links
-Visit the site at : (url)
+Visit the site at : https://iamalphena.github.io/khportfolio/index.html
 
 ## Objectives
 Design and showcase professional portfolio to incldude: 
