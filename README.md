@@ -5,7 +5,7 @@ Professional Portfolio to showcase work and areas of expertise for potential emp
 
 ## Preview
 
-![Preview Image](url)
+![Preview Image](assets/images/part1.png)
 
 ## Links
 Visit the site at : (url)
