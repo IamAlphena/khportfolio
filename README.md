@@ -1,5 +1,7 @@
 # Professional Portfolio
 
+# Professional Portfolio
+
 ## Overview
 Professional Portfolio to showcase work and areas of expertise for potential employers. 
 
@@ -24,6 +26,7 @@ Design and showcase professional portfolio to incldude:
 ## Credit 
 Code written by me.   
 Font found on daFont.com
+
 
 
 
