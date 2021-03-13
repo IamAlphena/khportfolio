@@ -7,7 +7,7 @@ Professional Portfolio to showcase work and areas of expertise for potential emp
 
 ## Preview
 
-![Preview Image](assets/images/part1.png)
+![Preview Image](https://github.com/IamAlphena/khportfolio/blob/main/assets/images/part1.PNG?raw=true)
 
 ## Links
 Visit the site at : https://iamalphena.github.io/khportfolio/index.html
