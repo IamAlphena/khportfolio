@@ -7,10 +7,10 @@ Professional Portfolio to showcase work and areas of expertise for potential emp
 
 ## Preview
 
-![Preview Image](https://github.com/IamAlphena/khportfolio/blob/main/assets/images/part1.PNG?raw=true)
+![Preview Image](https://cdn.discordapp.com/attachments/839393191882653707/839410425237602345/unknown.png)
 
 ## Links
-Visit the site at : https://iamalphena.github.io/khportfolio/index.html
+Visit the site at : https://objective-murdock-5283cb.netlify.app/
 
 ## Objectives
 Design and showcase professional portfolio to incldude: 
@@ -19,13 +19,9 @@ Design and showcase professional portfolio to incldude:
 * Examples of previous projects completed that highlight the abilities of the programer  
 * Contact Information for interested parties to reach out. 
 
-## Systems Used
-* HTML  
-* CSS
-
 ## Credit 
 Code written by me.   
-Font found on daFont.com
+
 
 
 
