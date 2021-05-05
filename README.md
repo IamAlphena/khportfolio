@@ -1,7 +1,5 @@
 # Professional Portfolio
 
-# Professional Portfolio
-
 ## Overview
 Professional Portfolio to showcase work and areas of expertise for potential employers. 
 
